@@ -76,6 +76,7 @@ public class HomeController {
 //		
 //		return "index";			
 //	}
+//
 	
 	@RequestMapping("/addAlien")
 	public String add(@ModelAttribute("alien") Alien alien, Model m) {
